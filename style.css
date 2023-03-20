@@ -1,0 +1,181 @@
+@font-face {
+    font-family: calcu;
+    src: url(digital-7.ttf);
+}
+@font-face {
+    font-family: tech;
+    src: url(Technology.ttf);
+}
+body{
+    background-image:  url('https://4kwallpapers.com/images/wallpapers/ios-13-stock-dark-green-black-background-amoled-ipad-hd-2732x2732-791.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.6s all;
+    -webkit-transition: 0.6s all;
+    -moz-transition: 0.6s all;
+    -ms-transition: 0.6s all;
+    -o-transition: 0.6s all;
+
+}
+
+form{
+    zoom:1.5;
+    margin-top: 9%;
+    margin-bottom: 9%;
+  
+}
+.container{
+    max-width: 400px!important;
+    background: rgb(56, 56, 56);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.671);
+
+}
+.container > .row, .col{
+    margin:0!important;
+    padding:0!important;
+}
+.row, .col, .container{
+    margin:0 auto;
+    text-align: center;
+}
+#egesz{
+    border-radius: 15px!important;
+    -webkit-border-radius: 15px!important;
+    -moz-border-radius: 15px!important;
+    -ms-border-radius: 15px!important;
+    -o-border-radius: 15px!important;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-top: rgb(94, 94, 94) 10px solid;
+}
+#gombok input{
+    width: 55px!important;
+    color: black;
+    background: linear-gradient(to left, rgb(90, 90, 90),rgb(105, 105, 105));
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 700!important;
+    padding: 6px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.534);
+    border:none;
+    font-size: 30px;
+    border-bottom:3px rgb(37, 37, 37) solid;
+    color:rgba(0, 0, 0, 0.750);
+}
+#gombok input:hover{
+     background: linear-gradient(to left, rgb(43, 43, 43),rgb(90, 90, 90));
+     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.747);
+     border-bottom:0px rgb(37, 37, 37) solid;
+}
+
+#kivitel input{
+    background-color: rgb(165, 165, 165)!important;
+    color:black!important;
+    border-radius: 10px!important;
+    -webkit-border-radius: 10px!important;
+    -moz-border-radius: 10px!important;
+    -ms-border-radius: 10px!important;
+    -o-border-radius: 10px!important;
+    width: 93%!important;
+    cursor: auto;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.534);
+    border:none;
+    font-weight: 640;
+    font-size: 30px;
+    padding:0px 10px 0px 10px;
+    margin-bottom:10px;
+    font-family: tech;
+    border-bottom:5px rgb(37, 37, 37) solid;
+}
+
+#kivitel input:focus{
+    outline: none;
+}
+#torles{
+    background: rgb(182, 91, 91)!important;
+    color:rgba(0, 0, 0, 0.700)!important;
+}
+#torles:hover{
+
+    background: linear-gradient(to left, rgb(153, 153, 153), rgb(206, 206, 206)) !important;
+}
+#egyenlo{
+    color:rgba(0, 0, 0, 0.700)!important;
+    background: rgb(126, 160, 82) !important;
+}
+#egyenlo:hover{
+
+    background: linear-gradient(to left, rgb(153, 153, 153), rgb(206, 206, 206)) !important;
+}
+#plusz{
+    color:rgba(0, 0, 0, 0.700)!important;
+    background: rgb(206, 169, 96)!important;
+}
+
+#plusz:hover{
+    background: linear-gradient(to left, rgb(153, 153, 153), rgb(206, 206, 206)) !important;
+}
+#minusz{
+    color:rgba(0, 0, 0, 0.700)!important;
+    background: rgb(89, 124, 170) !important;
+}
+#minusz:hover{
+
+    background: linear-gradient(to left, rgb(153, 153, 153), rgb(206, 206, 206)) !important;
+}
+#szorzas{
+    color:rgba(0, 0, 0, 0.700)!important;
+    background: rgb(159, 96, 177) !important;
+}
+#szorzas:hover{
+
+    background: linear-gradient(to left, rgb(153, 153, 153), rgb(206, 206, 206)) !important;
+}
+#osztas{
+    color:rgba(0, 0, 0, 0.700)!important;
+    background:rgb(132, 100, 187) !important;
+}
+#osztas:hover{
+
+    background: linear-gradient(to left, rgb(153, 153, 153), rgb(206, 206, 206)) !important;
+}
+
+@media only screen and (max-width:616px){
+    #egesz.container{
+        width: 100%!important;
+        height: 70vh!important;
+    }
+
+}
+@media only screen and (max-width:616px){
+    form{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .container{
+        box-shadow: 0px;
+    }
+    #egesz{
+        border-radius:0px! important;
+        -webkit-border-radius:0px! important;
+        -moz-border-radius:0px! important;
+        -ms-border-radius:0px! important;
+        -o-border-radius:0px! important;
+}
+
+}
+@media only screen and (max-width:400px){
+    #egesz{
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}

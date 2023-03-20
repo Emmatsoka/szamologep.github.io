@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Gyakorlás</title>
+</head>
+<body>
+    <form>
+     
+            <div class="container" id="egesz">
+                <div class="container-fluid  text-white">
+                    <div class="row container.fluid" id="kivitel">
+                        <div class="col "><input type="text" class="text-right" readonly="readonly" id="kiviteli"></div>
+                    </div>
+                    
+                    <div class="row " id="gombok">
+                        <div class="col"><input type="button" value="7" id="7" onclick=" document.getElementById('kiviteli').value += '7';" ></div>
+                        <div class="col"><input type="button" value="8" id="8"  onclick=" document.getElementById('kiviteli').value += '8';"></div>
+                        <div class="col"><input type="button" value="9" id="9"  onclick=" document.getElementById('kiviteli').value += '9';"></div>
+                        <div class="col"><input type="button" value="+"   onclick=" document.getElementById('kiviteli').value += ' + ';" id="plusz"></div>
+                    </div>
+                    <div class="row"  id="gombok">
+                        <div class="col"><input type="button" value="4" id="4"  onclick=" document.getElementById('kiviteli').value += '4';"></div>
+                        <div class="col"><input type="button" value="5" id="5"  onclick=" document.getElementById('kiviteli').value += '5';"></div>
+                        <div class="col"><input type="button" value="6" id="6"  onclick=" document.getElementById('kiviteli').value += '6';"></div>
+                        <div class="col"><input type="button" value="-"   onclick=" document.getElementById('kiviteli').value += ' - ';" id="minusz"></div>
+                    </div>
+                    <div class="row"  id="gombok">
+                        <div class="col"><input type="button" value="1" id="1"  onclick=" document.getElementById('kiviteli').value += '1';"></div>
+                        <div class="col"><input type="button" value="2" id="2"  onclick=" document.getElementById('kiviteli').value += '2';"></div>
+                        <div class="col"><input type="button" value="3" id="3"  onclick=" document.getElementById('kiviteli').value += '3';"></div>
+                        <div class="col"><input type="button" value="*"  onclick=" document.getElementById('kiviteli').value += ' * ';" id="szorzas"></div>
+                    </div>
+                    <div class="row"  id="gombok">
+                        <div class="col"><input type="reset" value="C" id="torles"></div>
+                        <div class="col"><input type="button" value="0" onclick=" document.getElementById('kiviteli').value += '0';"></div>
+                        <div class="col"><input type="button" value="=" onclick="document.getElementById('kiviteli').value = eval(document.getElementById('kiviteli').value);" id="egyenlo"></div>
+                        <div class="col"><input type="button" value="/" onclick=" document.getElementById('kiviteli').value += ' / ';" id="osztas"></div>
+                    </div>
+
+
+            
+            </div>
+        </div>
+    </form>
+</body>
+</html>
